@@ -65,6 +65,17 @@
                                     <action selector="iniciarSesionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2s-5J-U1I"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEn-N8-tAV">
+                                <rect key="frame" x="46.666666666666657" y="545.33333333333337" width="300" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="vdu-od-E1Q"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Iniciar Sesión con Google"/>
+                                <connections>
+                                    <action selector="iniciarSesionGoogleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6D5-9H-2uG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -74,6 +85,7 @@
                             <constraint firstItem="nHq-Na-8HY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pg6-b7-pIh"/>
                             <constraint firstItem="aPo-My-FbF" firstAttribute="top" secondItem="g3v-Cm-myd" secondAttribute="bottom" constant="25" id="UiO-Yu-bRU"/>
                             <constraint firstItem="wSL-Mf-HvX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W0V-yp-eZo"/>
+                            <constraint firstItem="lEn-N8-tAV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yu9-m3-4zT"/>
                             <constraint firstItem="RLy-NC-sfn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hvf-Uc-t9x"/>
                             <constraint firstItem="nHq-Na-8HY" firstAttribute="top" secondItem="cGI-od-nK1" secondAttribute="bottom" constant="30" id="igl-gu-xiR"/>
                             <constraint firstItem="wSL-Mf-HvX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="nMu-JA-a2t"/>
@@ -81,6 +93,7 @@
                             <constraint firstItem="cGI-od-nK1" firstAttribute="top" secondItem="RLy-NC-sfn" secondAttribute="bottom" constant="25" id="rBx-QG-plv"/>
                             <constraint firstItem="RLy-NC-sfn" firstAttribute="top" secondItem="aPo-My-FbF" secondAttribute="bottom" constant="25" id="tos-7e-yoW"/>
                             <constraint firstItem="g3v-Cm-myd" firstAttribute="top" secondItem="wSL-Mf-HvX" secondAttribute="bottom" constant="25" id="wXG-63-fle"/>
+                            <constraint firstItem="lEn-N8-tAV" firstAttribute="top" secondItem="nHq-Na-8HY" secondAttribute="bottom" constant="30" id="yZZ-HE-GS4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jw9-nQ-vf4"/>
